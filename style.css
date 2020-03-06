@@ -1,8 +1,25 @@
 body {
-    background-color: yellow;
+    background: linear-gradient(#dd1818, #333333) no-repeat center center fixed;
+    color:white;
 }
 
 li {
     display: inline;
 }
 
+.black
+{
+    background-color: black;
+    opacity: 0.5;
+}
+
+
+.box {
+    height: 730px;
+    width: 400px;
+    border-style: solid;
+    border-color: #333333;
+    border-top-width: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
