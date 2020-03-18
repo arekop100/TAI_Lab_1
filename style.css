@@ -14,10 +14,25 @@ li {
 }
 
 
+ul{
+    background-color: rgba(0, 0, 0, 0.69);
+}
+
+
 .box {
     height: 850px;
     width: 500px;
     padding:40px 50px;
+    border-radius:5px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.69);
+}
+
+.stopa{
+    width: 100%;
+    margin: 0 auto;
+
     border-radius:5px;
     margin-top: 15px;
     text-align: center;
