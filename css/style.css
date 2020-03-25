@@ -1,5 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
-    background: linear-gradient(#dd1818, #333333) no-repeat center center fixed;
+    background: linear-gradient(#614385, #516395) no-repeat center center fixed;
     color:white;
 }
 
@@ -33,4 +38,11 @@ body {
 .navbar{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.69);
+}
+
+.scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
 }
