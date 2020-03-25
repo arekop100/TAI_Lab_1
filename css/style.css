@@ -2,9 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
-    background: linear-gradient(#614385, #516395) no-repeat center center fixed;
+    background: linear-gradient(#4ECDC4, #556270) no-repeat center center fixed;
     color:white;
 }
 
@@ -13,7 +12,6 @@ body {
     background-color: black;
     opacity: 0.5;
 }
-
 
 .box {
     height: 850px;
@@ -45,4 +43,32 @@ body {
     bottom: 30px;
     right: 30px;
     display: none;
+}
+
+.text_black{
+    color:black;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+h2 {
+    color: white;
+}
+
+p{
+    margin-left: 20px;
+}
+
+a{
+    color: white;
 }
